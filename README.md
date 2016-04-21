@@ -1,8 +1,8 @@
 # Elementary Inheritance
 
-Ett exempel med klasser, arv, interface, egenskaper, autoimlementerade egenskaper, "read-only" egenskaper, anrop av basklasskonstruktor, överskuggning, operatoröverlagring, etc.
+Ett exempel med klasser, arv, interface, egenskaper, autoimlementerade egenskaper, "read-only" egenskaper, beräknade egenskaper, anrop av basklasskonstruktor, överskuggning, operatoröverlagring, etc.
 
-Överskuggning sker av ToString(), GetHashCode() och Equals(). Interfacet IEquatable<T> implementeras. Operatorerna == och != överlagras.
+Överskuggning sker av `ToString()`, `GetHashCode()` och `Equals()`. Interfacet `IEquatable&lt;T&gt;` implementeras. Operatorerna `==` och `!=` överlagras.
 
 Källkoden har "pedagogiska"(?) kommentarer snarare än dokumenterande kommentarer.
 
