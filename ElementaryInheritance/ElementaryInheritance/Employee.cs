@@ -113,7 +113,7 @@ namespace ElementaryInheritance
         {
             // Om både e1 och e2 är null returnera true, eller om e1 är null 
             // men inte e2 returnera false, annars jämför de två objekten.
-            return ReferenceEquals(e1, null) ? ReferenceEquals(e2, null) : e1.Equals(e2);
+            return e1?.Equals(e2) ?? ReferenceEquals(e2, null);
         }
 
         // Överlagring av operatorn !=
